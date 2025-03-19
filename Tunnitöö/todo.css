@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100px;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.todo-list{
+    list-style-type: none;
+    list-style: none;
+}
+.todo-list > li{
+    list-style-type: none;
+}
+.task{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.todo-list > li{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+}
+.delete, .done{
+    margin-left: 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    height: 15px;
+    width: 15px;
+    font-size: 7px;
+    padding: 0;
+}
+.edit{
+    margin-left: 20px;
+}
+.delete:hover, .done:hover, .edit:hover{
+    border: 2px solid black;
+    color: grey;
+}
+.task > div, .task > button{
+    padding-right: 10px;
+}
+#buttonContainer{
+    margin-top: 10px;
+}
+#addButton{
+    background-color: rgb(122, 218, 131);
+    border: 3px dotted rgb(3, 158, 29);
+    border-radius: 40px;
+    padding: 5px 20px;
+}
+.done-task{
+    background-color: rgb(24, 211, 24);
+    border-radius: 60px;
+    border:2px dotted rgb(3, 151, 28);
+    margin-top: 3px;
+}
+h2{
+    text-align: center;
+    font-size: 1.25rem;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js" defer></script>
+    <title>Todo</title>
+</head>
+<body>
+    <div id="main">
+        <div id="inputContainer">
+            <input type="text" name="title" id="title" placeholder="Pealkiri">
+            <input type="text" name="title" id="description" placeholder="Kirjeldus">
+            <input type="date" name="date" id="date">
+            <label for="priority">Vali todo-le prioriteet</label>
+            <select name="priority" id="priority"> <!-- vaatasin lihtsalt kuidas dropdowni teha w3scool-ist -->
+                <option value="TEE ÄRA!!!" selected>Kiire</option>
+                <option value="sellega on nii ja naa">Keskmine</option>
+                <option value="võta rahulikult, aega on sellega...">saab võtta rahulikult</option>
+            </select>
+        </div>
+        <div id="buttonContainer">
+            <button id="addButton">Lisa</button>
+        </div>
+        <div id="taskList">No tasks</div>
+    
+</body>
+</html>
